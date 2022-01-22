@@ -1,0 +1,22 @@
+{
+  "name": "sprint-4",
+  "version": "1.0.0",
+  "description": "Acamica practices - Sprint 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/santieb/sprint-4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/santieb/sprint-4/issues"
+  },
+  "homepage": "https://gitlab.com/santieb/sprint-4#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}

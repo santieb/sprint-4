@@ -1,0 +1,25 @@
+Lista de comandos
+
+docker pull name-img  Descarga una imagen
+
+docker run --name [name-container] -p [port address] -d [name-img]  Crea un contenedor, le asigna un nombre, puertos y lo corre.
+
+docker images  Lista las imágenes
+
+docker ps  Ver contenedor corriendo
+
+docker start  Ejecuta un contenedor ya construido con docker run
+
+docker stop  Frena la ejecución de un contenedor
+
+docker restart  Reinicia un contenedor
+
+docker rm  Elimina un contenedor
+
+docker rmi  Elimina una imagen
+
+docker exec -it [name] bash  Ingresar a un contendor
+
+docker build [route] -t name-img  Crear una imagen
+
+docker push [username][respository][tagname]  Envia la imagen a un repositorio de dockerhub

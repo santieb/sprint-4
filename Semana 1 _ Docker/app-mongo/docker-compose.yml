@@ -1,0 +1,23 @@
+version: '3'
+services:
+  app:
+    image: santieb/app
+    ports:
+      - "5000:5000"
+    networks:
+      - network
+    environment:
+      - MONGO_URI=mongodb://mimongo:27017
+    depends_on:
+      - mimongo
+    volumes:
+        - C:\Users\thomi\dockerVolumes:/usr/src/volumes/
+  mimongo:
+    image: mongo
+    ports:
+      - "5001:27017"
+    networks:
+      - network
+
+networks:
+    network:

@@ -26,3 +26,7 @@ docker run --name [name-container]  --network [name-network] -it [name-img] Crea
 Volumes:
 
 docker run --name [name-container] --network [name-network] -v [directory]:[directory] -it [name-img] Crea un contenedor y un volumen
+
+Compose:
+
+docker-compose up -d

@@ -1,0 +1,7 @@
+version: '3'
+services:
+  miapp:
+    image: santieb/docker-node
+    ports:
+      - "8080:8080"
+      
